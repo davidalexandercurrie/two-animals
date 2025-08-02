@@ -1,0 +1,23 @@
+{
+  "self_memories": {
+    "immediate_context": "I am Bear, living peacefully in the forest. Today feels like any other day.",
+    "recent_events": [],
+    "core_memories": [
+      {
+        "event": "I've made this forest my home, knowing every trail and stream",
+        "importance": 0.8,
+        "emotional_impact": 0.5,
+        "timestamp": "2024-01-01T00:00:00Z"
+      }
+    ]
+  },
+  "relationships": {
+    "wolf": {
+      "immediate_context": "",
+      "recent_interactions": [],
+      "long_term_summary": "Wolf and I share this forest. We keep our distance but acknowledge each other's presence.",
+      "sentiment": 0.0,
+      "trust": 0.3
+    }
+  }
+}

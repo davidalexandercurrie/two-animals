@@ -71,3 +71,57 @@ test-ollama-specific:
 # Run Ollama tests with a specific model
 test-ollama-model model:
     cd server && TEST_LLM_MODEL={{model}} cargo test --test ollama_integration_tests -- --ignored --nocapture
+
+# Game state management commands
+# Clean all game-generated data (contracts and memories)
+clean-game-state:
+    @echo "⚠️  This will delete all contracts and NPC memories!"
+    @echo "Press Ctrl+C to cancel, or Enter to continue..."
+    @read
+    rm -f data/contracts/*.json
+    rm -f data/npcs/*/memories.json
+    @echo "✅ Game state cleaned"
+
+# Clean only contracts (keep memories)
+clean-contracts:
+    @echo "Cleaning contract files..."
+    rm -f data/contracts/*.json
+    @echo "✅ Contracts cleaned"
+
+# Clean only memories (keep contracts)
+clean-memories:
+    @echo "Cleaning NPC memory files..."
+    rm -f data/npcs/*/memories.json
+    @echo "✅ Memories cleaned"
+
+# Reset memories to initial state
+reset-memories:
+    @echo "Resetting NPC memories to initial state..."
+    @cp data/npcs/bear/initial_memories.json data/npcs/bear/memories.json 2>/dev/null || echo "No initial memories for bear"
+    @cp data/npcs/wolf/initial_memories.json data/npcs/wolf/memories.json 2>/dev/null || echo "No initial memories for wolf"
+    @echo "✅ Memories reset to initial state"
+
+# Initialize game for first time (clean state + initial memories)
+init-game:
+    @echo "Initializing fresh game state..."
+    @just clean-game-state
+    @just reset-memories
+    @echo "✅ Game initialized with fresh state"
+
+# Backup game state
+backup-game-state:
+    #!/usr/bin/env bash
+    TIMESTAMP=$(date +"%Y%m%d_%H%M%S")
+    BACKUP_DIR="backups/game_state_${TIMESTAMP}"
+    mkdir -p "${BACKUP_DIR}/contracts"
+    mkdir -p "${BACKUP_DIR}/npcs"
+    cp -r data/contracts/*.json "${BACKUP_DIR}/contracts/" 2>/dev/null || true
+    cp -r data/npcs "${BACKUP_DIR}/" 2>/dev/null || true
+    echo "✅ Game state backed up to ${BACKUP_DIR}"
+
+# Restore game state from backup
+restore-game-state backup_dir:
+    @echo "Restoring from {{backup_dir}}..."
+    cp -r {{backup_dir}}/contracts/*.json data/contracts/ 2>/dev/null || true
+    cp -r {{backup_dir}}/npcs/*/memories.json data/npcs/ 2>/dev/null || true
+    @echo "✅ Game state restored"

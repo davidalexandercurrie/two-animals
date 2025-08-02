@@ -24,8 +24,22 @@ Thumbs.db
 *.log
 /logs/
 
-# Data files (if you want to keep these private)
-# /data/
+# Game-generated data files
+# Contract conversation logs
+/data/contracts/*.json
+
+# NPC memories (game state)
+/data/npcs/*/memories.json
+
+# Keep personality files (they're game config, not generated)
+!/data/npcs/*/personality.md
+
+# Temporary NPC directories with wrong case
+/data/npcs/Bear/
+/data/npcs/Wolf/
+
+# Game state backups
+/backups/
 
 # Temporary files
 *.tmp
