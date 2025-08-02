@@ -18,6 +18,7 @@ Thumbs.db
 # Environment
 .env
 .env.local
+.mcp.json
 
 # Logs
 *.log
