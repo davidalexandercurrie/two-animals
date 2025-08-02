@@ -1,0 +1,28 @@
+[
+  {
+    "reality": "Wolf circles Bear with mounting aggression while Bear responds with careful withdrawal, maintaining dignity while avoiding confrontation",
+    "details": {
+      "wolf": {
+        "action": "circles Bear with low, tense movements, snapping jaws in warning",
+        "dialogue": "You're testing my patience, Bear. This clearing belongs to ME. Move along NOW!"
+      },
+      "bear": {
+        "action": "backs away slowly while maintaining eye contact, then turns toward forest edge",
+        "dialogue": "I'm just passing through to fish, Wolf. The river has room for both of us."
+      }
+    }
+  },
+  {
+    "reality": "Wolf asserts ownership of the river while following Bear's retreat. Bear acknowledges Wolf's claim and moves into the forest, effectively ending the confrontation.",
+    "details": {
+      "wolf": {
+        "action": "follows Bear at a distance, maintaining aggressive posture without closing gap",
+        "dialogue": "The river in MY territory is MINE, Bear. Fish downstream if you must, but this stretch belongs to me!"
+      },
+      "bear": {
+        "action": "continues backing to forest edge, then turns and walks calmly into deeper woods",
+        "dialogue": "The clearing is yours, Wolf. I'll find my fish elsewhere today."
+      }
+    }
+  }
+]

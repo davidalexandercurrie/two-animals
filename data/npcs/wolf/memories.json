@@ -1,0 +1,96 @@
+{
+  "self_memories": {
+    "immediate_context": "Bear finally yielded at the last second - they're heading toward the deep forest, but I'm maintaining aggressive posture until they're completely gone",
+    "recent_events": [
+      "Successfully established complete territorial dominance over my clearing through persistent displays and marking - Bear has retreated to the deep forest",
+      "Had to confront Bear AGAIN when they dared return to my clearing - this blatant disrespect of established boundaries cannot be tolerated",
+      "Escalated to physical threat displays when Bear pretended not to remember being driven out earlier - their feigned confusion only fueled my territorial rage",
+      "Nearly attacked Bear physically when they wouldn't leave my territory - the closest I've come to actual violence",
+      "Successfully drove Bear from my territory through escalating aggression - came within a breath of actual violence before they yielded",
+      "Successfully defended territory through near-violence - Bear retreated with dignity intact but my dominance established",
+      "Finally achieved complete territorial victory - Bear admitted I 'won my clearing' and retreated fully to their deep forest domain",
+      "The territorial dispute with Bear has escalated to actual violence - I attacked when they returned to my clearing after admitting defeat",
+      "Gave Bear their final ultimatum - three seconds to retreat or face another attack. The line between territorial defense and violence has been permanently crossed",
+      "Bear turned toward the deep forest at 'two' - just barely avoiding the violence I was prepared to unleash"
+    ],
+    "core_memories": []
+  },
+  "relationships": {
+    "bear": {
+      "immediate_context": "They finally showed submission by turning toward the deep forest - but only at the last possible moment before violence",
+      "recent_memories": [
+        {
+          "event": "Maintained vigilant rest on my boulder while Bear peacefully explored the deep forest. Our territorial boundaries are holding - no confrontation needed.",
+          "timestamp": "2025-01-02T10:38:00Z",
+          "emotional_impact": "calm and confident",
+          "importance": 0.5
+        },
+        {
+          "event": "Bear had the audacity to return to my clearing after I'd already driven them out. I confronted them aggressively, blocking their path and demanding they leave NOW. This is a direct challenge to my authority.",
+          "timestamp": "2025-01-02T10:39:00Z",
+          "emotional_impact": "furious and territorial",
+          "importance": 0.9
+        },
+        {
+          "event": "Bear claimed not to remember being driven from my clearing earlier today. Whether genuine confusion or deliberate disrespect, I escalated to physical threat displays - bared teeth, snapping jaws, and aggressive advance.",
+          "timestamp": "2025-01-02T10:40:00Z",
+          "emotional_impact": "enraged and insulted",
+          "importance": 0.85
+        },
+        {
+          "event": "Charged Bear at full speed with teeth bared, coming within inches of actual attack. They finally showed real fear and fled - this wasn't a game anymore.",
+          "timestamp": "2025-01-02T10:41:00Z",
+          "emotional_impact": "satisfied but shaken",
+          "importance": 0.95
+        },
+        {
+          "event": "Bear began retreating to the deep forest after I circled to block other paths, maintaining eye contact but showing submission through their retreat",
+          "timestamp": "2025-01-02T10:42:00Z",
+          "emotional_impact": "vindicated and dominant",
+          "importance": 0.8
+        },
+        {
+          "event": "Escorted Bear to forest edge with aggressive marking and circling - they retreated with measured dignity rather than fearful submission, but crucially they DID leave",
+          "timestamp": "2025-01-02T10:43:00Z",
+          "emotional_impact": "satisfied but wary",
+          "importance": 0.8
+        },
+        {
+          "event": "Escorted Bear completely to the deep forest boundary with final warnings. They admitted I 'won my clearing' - a verbal acknowledgment of my territorial victory before withdrawing into their domain",
+          "timestamp": "2025-01-02T10:44:00Z",
+          "emotional_impact": "triumphant and vigilant",
+          "importance": 0.9
+        },
+        {
+          "event": "Bear returned to MY clearing after verbally admitting I won it. My explosive charge caught them before they could escape, leading to violent physical confrontation - the boundary between threat and action finally crossed",
+          "timestamp": "2025-01-02T10:45:00Z",
+          "emotional_impact": "violent rage and betrayal",
+          "importance": 0.98
+        },
+        {
+          "event": "Cornered Bear with lethal intent, giving them three seconds to retreat to the deep forest or face attack - no more warnings, no more territorial games",
+          "timestamp": "2025-01-02T10:46:00Z",
+          "emotional_impact": "coldly violent and determined",
+          "importance": 0.95
+        },
+        {
+          "event": "Bear turned toward the deep forest at my count of 'two', finally yielding to my ultimatum just before I would have attacked",
+          "timestamp": "2025-01-02T10:47:00Z",
+          "emotional_impact": "grimly satisfied but still aggressive",
+          "importance": 0.9
+        }
+      ],
+      "long_term_summary": "Bear has learned to yield to genuine threats of violence, but only at the last possible second - they push every boundary to its absolute limit",
+      "core_memories": [
+        "Bear's repeated intrusions into my territory after being driven out - a pattern of disrespect that may require physical enforcement",
+        "Bear's repeated intrusions and claimed ignorance of our confrontations - establishing a pattern that may require physical enforcement",
+        "The moment I charged Bear with genuine intent to harm - crossing from threats to near-violence to defend my territory",
+        "Bear's admission that I 'won my clearing' - the moment our territorial dispute was verbally resolved with my complete victory",
+        "The moment territorial threats became real violence - I attacked Bear for returning to my clearing after they admitted it was mine",
+        "The moment I gave Bear a three-second ultimatum backed by genuine lethal intent - territorial defense has become predator versus prey"
+      ],
+      "current_sentiment": -0.85,
+      "overall_bond": 0.0
+    }
+  }
+}

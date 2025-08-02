@@ -1,0 +1,97 @@
+{
+  "self_memories": {
+    "immediate_context": "Executing controlled withdrawal from Wolf's escalating countdown threat - moving steadily toward deep forest while maintaining vigilant awareness of their predatory positioning behind me",
+    "recent_events": [
+      "Found excellent berry patches near the old lightning-struck pine - a reliable food source worth remembering",
+      "Wolf becomes aggressive even when I'm leaving their territory - they seem to want confrontation regardless of my peaceful intentions",
+      "Wolf confronted me aggressively WHILE I was leaving their territory - they seem to seek confrontation regardless of my peaceful actions",
+      "Wolf physically charged me from behind while I was walking away on the deer path - they're willing to attack even when I'm leaving peacefully",
+      "Wolf won't even let me leave peacefully - they circle to block my path after attacking me",
+      "Successfully withdrew from Wolf's attack without running or showing panic - kept my dignity intact despite their predatory behavior",
+      "Successfully extracted myself from Wolf's predatory pursuit by disappearing into the thick pines - proved I can handle dangerous situations without panicking",
+      "Wolf ambushed me the moment I tried to move deeper into my own forest - they're actively hunting me even in my territory",
+      "Successfully managed tactical withdrawal from Wolf's predatory aggression without showing panic or submission - proved I can handle dangerous situations with composure",
+      "Managed to turn away from Wolf's countdown threat without showing fear - demonstrated that I can maintain composure even when they're seconds from attacking"
+    ],
+    "core_memories": []
+  },
+  "relationships": {
+    "wolf": {
+      "immediate_context": "Wolf counting down to violence as I turn to leave - they're orchestrating this confrontation like a predator toying with prey",
+      "recent_memories": [
+        {
+          "event": "We've established separate territories - Wolf has the clearing, I have the deep forest. Both of us seem content with this arrangement",
+          "timestamp": "2025-01-02T10:36:00Z",
+          "emotional_impact": "peaceful acceptance",
+          "importance": 0.7
+        },
+        {
+          "event": "Wolf confronted me aggressively as I tried to leave the clearing, accusing me of 'returning' to their territory when I was simply passing through",
+          "timestamp": "2025-01-02T10:37:00Z",
+          "emotional_impact": "frustrated and confused",
+          "importance": 0.8
+        },
+        {
+          "event": "Wolf escalated to aggressive advances even as I stood on the path leaving their clearing - I had to explain the obvious while standing my ground peacefully",
+          "timestamp": "2025-01-02T10:38:00Z",
+          "emotional_impact": "exasperated but controlled",
+          "importance": 0.85
+        },
+        {
+          "event": "Wolf charged and physically struck me while I was walking away peacefully on the deer path - unprovoked physical aggression",
+          "timestamp": "2025-01-02T10:39:00Z",
+          "emotional_impact": "shocked and angry",
+          "importance": 0.9
+        },
+        {
+          "event": "Wolf circled to block my retreat path after charging me - they won't let me leave peacefully even after their attack",
+          "timestamp": "2025-01-02T10:40:00Z",
+          "emotional_impact": "trapped and angry",
+          "importance": 0.9
+        },
+        {
+          "event": "Wolf escorted me to the forest edge with continued aggression, treating me like defeated prey rather than a neighbor",
+          "timestamp": "2025-01-02T10:41:00Z",
+          "emotional_impact": "humiliated but relieved",
+          "importance": 0.85
+        },
+        {
+          "event": "Wolf gave 'final territorial warnings' at the forest boundary after hunting me like prey - treating me as a subordinate they've driven off",
+          "timestamp": "2025-01-02T10:42:00Z",
+          "emotional_impact": "disgusted and wary",
+          "importance": 0.85
+        },
+        {
+          "event": "Wolf ambushed me with an explosive charge just as I tried to retreat deeper into my own forest territory",
+          "timestamp": "2025-01-02T10:43:00Z",
+          "emotional_impact": "terrified and enraged",
+          "importance": 0.95
+        },
+        {
+          "event": "Wolf's aggressive positioning forced me into defensive retreat while I maintained eye contact - they're actively driving me out like prey",
+          "timestamp": "2025-01-02T10:44:00Z",
+          "emotional_impact": "controlled fury",
+          "importance": 0.9
+        },
+        {
+          "event": "Wolf began an aggressive countdown while I attempted to leave, forcing me to withdraw under threat of imminent attack",
+          "timestamp": "2025-01-02T10:45:00Z",
+          "emotional_impact": "controlled rage",
+          "importance": 0.9
+        }
+      ],
+      "long_term_summary": "Wolf has devolved into using countdown threats to terrorize - they're not just aggressive, they're sadistic in their dominance displays",
+      "core_memories": [
+        "Wolf attacked me from behind while I was walking away - they're dangerously aggressive and will strike without provocation",
+        "Wolf trapped me after attacking - they're not just defending territory, they're actively seeking conflict",
+        "Wolf hunted me like prey, attacking from behind and then escorting me out with dominance displays - they see me as something to dominate, not a fellow forest dweller",
+        "Wolf hunted me to my own territory boundary with 'final warnings' - they don't just defend space, they actively pursue and dominate anyone they encounter",
+        "Wolf ambushed me in my own forest as I tried to escape - they're hunting me beyond their territory boundaries",
+        "Wolf forced me into defensive retreat through sustained aggression - they've made it clear they see me as something to hunt and dominate, not coexist with",
+        "Wolf used a predatory countdown to force my withdrawal - they've weaponized fear itself as a tool of dominance"
+      ],
+      "current_sentiment": -1.0,
+      "overall_bond": 0.0
+    }
+  }
+}

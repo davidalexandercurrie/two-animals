@@ -1,0 +1,28 @@
+[
+  {
+    "reality": "Bear rises and acknowledges Wolf's presence while moving toward the berry bushes",
+    "details": {
+      "bear": {
+        "action": "Rose slowly from rest, stretched deliberately, began walking to berry bushes",
+        "dialogue": "Wolf. Been a while since you've come this far into the clearing."
+      },
+      "wolf": {
+        "action": "Patrolling the clearing, noticed by Bear",
+        "dialogue": null
+      }
+    }
+  },
+  {
+    "reality": "Wolf responds to Bear's pointed greeting while continuing their patrol, marking territory at the forest edge as Bear begins foraging",
+    "details": {
+      "bear": {
+        "action": "continues to berry bushes, keeping Wolf in peripheral vision while examining berries",
+        "dialogue": null
+      },
+      "wolf": {
+        "action": "maintains steady patrol pace, marks tree at forest line",
+        "dialogue": "Just checking the borders, Bear. Making sure everything's... as it should be."
+      }
+    }
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "reality": "Wolf charges at Bear just as Bear tries to speak calmly. The charge stops inches from Bear's flank, forcing Bear to halt and turn defensively.",
+    "details": {
+      "wolf": {
+        "action": "charges at full speed, skidding to a halt inches from Bear",
+        "dialogue": "ENOUGH! GET OUT NOW OR I WILL MAKE YOU LEAVE!"
+      },
+      "bear": {
+        "action": "stops mid-stride and turns to face Wolf, muscles tensed",
+        "dialogue": "I'm already leaving, Wolf. You've made your—"
+      }
+    }
+  },
+  {
+    "reality": "Wolf maintains aggressive control while Bear begins measured retreat",
+    "details": {
+      "bear": {
+        "action": "backs away slowly down deer path, never turning away fully",
+        "dialogue": "You've made your point, Wolf. I'm going."
+      },
+      "wolf": {
+        "action": "circles with hackles raised, cutting off all paths except toward deep forest",
+        "dialogue": "The deep forest. NOW. Next time I won't stop."
+      }
+    }
+  },
+  {
+    "reality": "Bear acknowledges defeat while Wolf ensures territorial boundaries are respected",
+    "details": {
+      "bear": {
+        "action": "continues steady retreat down deer path, maintaining eye contact",
+        "dialogue": "I'm leaving, Wolf. You've won your clearing."
+      },
+      "wolf": {
+        "action": "circles aggressively, marking trees and rocks along the path",
+        "dialogue": "Keep moving. I'll be watching to make sure you don't 'forget' again."
+      }
+    }
+  }
+]

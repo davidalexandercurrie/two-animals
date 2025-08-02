@@ -1,0 +1,41 @@
+[
+  {
+    "reality": "Wolf charges across the clearing with unprecedented fury, reaching Bear just as they rise to leave. Wolf stops inches from Bear's face, fangs bared, saliva dripping, body coiled for violence.",
+    "details": {
+      "wolf": {
+        "action": "charges at full speed, skids to a stop inches from Bear's face, hackles raised, fangs fully bared, body vibrating with rage",
+        "dialogue": "You DARE?! You admitted this was MY clearing! You said I WON! GET OUT NOW OR I WILL MAKE YOU LEAVE IN PIECES!"
+      },
+      "bear": {
+        "action": "freezes mid-rise, muscles tensing defensively, eyes widening at Wolf's sudden assault",
+        "dialogue": null
+      }
+    }
+  },
+  {
+    "reality": "Bear attempts to de-escalate while retreating, but Wolf cuts off escape routes and issues an ultimatum",
+    "details": {
+      "bear": {
+        "action": "backs away slowly while maintaining eye contact, trying to move toward forest edge",
+        "dialogue": "I AM leaving, Wolf. That's what I was doing when you charged me. Again."
+      },
+      "wolf": {
+        "action": "circles aggressively to block all paths except toward deep forest, muscles coiled to strike",
+        "dialogue": "MOVE. NOW. One step toward the deep forest or I attack. No more warnings. No more games. You have THREE SECONDS."
+      }
+    }
+  },
+  {
+    "reality": "Bear concedes to Wolf's ultimatum with dignity while Wolf maintains aggressive pressure",
+    "details": {
+      "bear": {
+        "action": "turns and walks with measured steps toward the deep forest, maintaining composure",
+        "dialogue": "Your forest. Your rules. I'm going."
+      },
+      "wolf": {
+        "action": "advances one step closer while growling the countdown, muscles coiled for attack",
+        "dialogue": "TWO..."
+      }
+    }
+  }
+]

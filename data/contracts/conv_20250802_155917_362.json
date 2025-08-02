@@ -1,0 +1,15 @@
+[
+  {
+    "reality": "As Bear rises to leave for the deep forest, Wolf intercepts with an aggressive territorial display",
+    "details": {
+      "wolf": {
+        "action": "strides forward assertively, tail raised high, positioning between Bear and the forest path",
+        "dialogue": "Bear, I've marked these boundaries three times now. This clearing belongs to me. Find somewhere else to rest."
+      },
+      "bear": {
+        "action": "slowly rises from resting position, freezes mid-movement when confronted",
+        "dialogue": null
+      }
+    }
+  }
+]

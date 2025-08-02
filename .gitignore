@@ -1,0 +1,30 @@
+# Rust
+/target/
+/server/target/
+**/*.rs.bk
+Cargo.lock
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+
+# Logs
+*.log
+
+# Data files (if you want to keep these private)
+# /data/
+
+# Temporary files
+*.tmp
+*.temp

@@ -1,0 +1,28 @@
+[
+  {
+    "reality": "Wolf aggressively confronts Bear just as Bear was beginning to leave the clearing",
+    "details": {
+      "wolf": {
+        "action": "rushes forward with aggressive posture - ears forward, tail high, hackles raised, positioning between Bear and the clearing center",
+        "dialogue": "You DARE return to my clearing after I made myself clear? Get out, Bear! NOW!"
+      },
+      "bear": {
+        "action": "pauses mid-step on the deer path, turning slowly to face Wolf with a confused expression",
+        "dialogue": null
+      }
+    }
+  },
+  {
+    "reality": "Bear stops on the deer path and calmly explains they're already leaving, while Wolf advances with increased aggression, baring teeth and growling threateningly",
+    "details": {
+      "bear": {
+        "action": "stopped completely on the deer path, standing ground without aggression while gesturing toward the path with their head",
+        "dialogue": "Wolf, look where I am - I'm ON the path leaving! I'm doing exactly what you wanted. You can have your clearing, I told you that already. Now let me go to the deep forest in peace."
+      },
+      "wolf": {
+        "action": "advanced with deliberate threatening steps, head lowered, teeth fully bared, snapping jaws audibly while releasing a rumbling growl that rises in pitch",
+        "dialogue": "Don't play innocent with me! You were here earlier - I drove you out! These are MY marks, MY territory! Move. NOW!"
+      }
+    }
+  }
+]
