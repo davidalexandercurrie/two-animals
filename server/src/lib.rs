@@ -8,7 +8,7 @@ pub mod types;
 pub mod utils;
 
 // Re-export for tests
-pub use llm::{ClaudeClient, LlmClient};
+pub use llm::{ClaudeClient, OllamaClient, LlmClient};
 pub use game::GameStateManager;
 pub use prompts::{PromptBuilder, PromptLoader};
 pub use types::*;

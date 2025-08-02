@@ -1,11 +1,34 @@
 #[cfg(test)]
 mod llm_integration_tests {
-    use server::{llm::ClaudeClient, LlmClient};
+    use server::{llm::{ClaudeClient, OllamaClient}, LlmClient};
     use serde_json::Value;
     use std::path::Path;
+    use std::sync::Arc;
 
     // Only run these tests when explicitly requested with:
     // cargo test --test llm_integration_tests -- --ignored
+    
+    fn get_llm_client() -> Arc<dyn LlmClient> {
+        // Check for test-specific provider first
+        let provider = std::env::var("TEST_LLM_PROVIDER")
+            .or_else(|_| {
+                // Load .env file if no test provider specified
+                dotenv::dotenv().ok();
+                std::env::var("LLM_PROVIDER")
+            })
+            .unwrap_or_else(|_| "claude".to_string());
+        
+        match provider.as_str() {
+            "claude" => Arc::new(ClaudeClient),
+            "ollama" => {
+                let model = std::env::var("TEST_LLM_MODEL")
+                    .or_else(|_| std::env::var("LLM_MODEL"))
+                    .unwrap_or_else(|_| "llama3.2:latest".to_string());
+                Arc::new(OllamaClient::new(model))
+            }
+            _ => panic!("Unknown LLM provider: {}", provider),
+        }
+    }
     
     #[tokio::test]
     #[ignore] // Ignored by default since it calls real LLM API
@@ -16,8 +39,7 @@ mod llm_integration_tests {
             .is_test(true)
             .try_init();
             
-        // Using ClaudeClient for now, but this could be any LLM implementation
-        let client = ClaudeClient;
+        let client = get_llm_client();
         
         let test_prompt = r#"
 You are a bear in a forest. Respond with ONLY a JSON object in this exact format:
@@ -56,7 +78,7 @@ What do you do?
     #[tokio::test]
     #[ignore]
     async fn test_llm_gm_response_format() {
-        let client = ClaudeClient;
+        let client = get_llm_client();
         
         let test_prompt = r#"
 You are a Game Master. Respond with ONLY a JSON object in this exact format:
@@ -99,7 +121,7 @@ Current situation: Bear wants to fish, Wolf wants to hunt. They meet at the Deep
     #[tokio::test]
     #[ignore]
     async fn test_llm_memory_response_format() {
-        let client = ClaudeClient;
+        let client = get_llm_client();
         
         let test_prompt = r#"
 You need to update memories. Respond with ONLY a JSON object in this exact format:

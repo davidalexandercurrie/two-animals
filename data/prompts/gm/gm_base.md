@@ -61,9 +61,23 @@ Create a contract when:
 - **"update"** - Continue existing contract interactions
 - **"end"** - Close when NPCs disengage or move apart
 
+### Handling Dialogue in Contracts
+
+When NPCs intend to speak:
+1. Decide if they actually get to speak (based on timing, interruptions, etc.)
+2. If they speak, include the dialogue in both:
+   - The contract's reality field (describe WHO said WHAT)
+   - The details section (exact dialogue in the dialogue field)
+3. If they don't get to speak, set dialogue to null and explain why in the reality
+
 ## Response Format
 
-Always respond with JSON in exactly this format:
+Always respond with JSON in exactly this format.
+
+IMPORTANT JSON RULES:
+- Use null (not "null" or "None") for absent values
+- Both "action" and "dialogue" fields must always be present in each NPC's details
+- If an NPC doesn't speak, use: "dialogue": null
 
 ```json
 {
@@ -81,15 +95,15 @@ Always respond with JSON in exactly this format:
       "participants": ["bear", "wolf"],
       "action": "create|update|end",
       "transcript_entry": {
-        "reality": "What happened in this specific interaction",
+        "reality": "What happened in this specific interaction (MUST include any dialogue that was spoken)",
         "details": {
           "bear": {
             "action": "what Bear did",
-            "dialogue": "what Bear said (or null)"
+            "dialogue": "what Bear said (or null if silent)"
           },
           "wolf": {
             "action": "what Wolf did", 
-            "dialogue": "what Wolf said (or null)"
+            "dialogue": "what Wolf said (or null if silent)"
           }
         }
       }
@@ -103,3 +117,43 @@ Always respond with JSON in exactly this format:
 ```
 
 Remember: You're creating a living world. Make it feel real and reactive.
+
+## Example for Silent Actions
+
+When NPCs don't speak, ensure their dialogue is null:
+```json
+"transcript_entry": {
+  "reality": "Bear cautiously sniffs the air while Wolf maintains a defensive stance. Neither speaks.",
+  "details": {
+    "bear": {
+      "action": "sniffs the air cautiously",
+      "dialogue": null
+    },
+    "wolf": {
+      "action": "maintains defensive stance",
+      "dialogue": null
+    }
+  }
+}
+```
+
+## Example with Dialogue
+
+When NPCs do speak, include it in the reality:
+```json
+"transcript_entry": {
+  "reality": "Wolf growls a warning as Bear approaches. 'This is my territory,' Wolf declares firmly. Bear stops but doesn't respond.",
+  "details": {
+    "bear": {
+      "action": "stops moving and watches Wolf",
+      "dialogue": null
+    },
+    "wolf": {
+      "action": "growls threateningly",
+      "dialogue": "This is my territory"
+    }
+  }
+}
+```
+
+NEVER use "dialogue": "None" or "dialogue": "null" - always use the JSON null value.

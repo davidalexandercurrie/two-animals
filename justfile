@@ -10,6 +10,7 @@ dev:
 dev-log:
     #!/usr/bin/env bash
     cd server
+    mkdir -p ../logs
     TIMESTAMP=$(date +"%Y%m%d_%H%M%S")
     echo "Logging to logs/dev_${TIMESTAMP}.log"
     cargo watch -c -x 'run --bin server' 2>&1 | tee "../logs/dev_${TIMESTAMP}.log"
@@ -22,6 +23,7 @@ dev-debug:
 dev-debug-log:
     #!/usr/bin/env bash
     cd server
+    mkdir -p ../logs
     TIMESTAMP=$(date +"%Y%m%d_%H%M%S")
     echo "Debug logging to logs/dev_debug_${TIMESTAMP}.log"
     RUST_LOG=debug cargo watch -c -x 'run --bin server' 2>&1 | tee "../logs/dev_debug_${TIMESTAMP}.log"
@@ -53,3 +55,19 @@ test-verbose:
 # Run integration tests that call real LLM API (may cost money!)
 test-llm:
     cd server && cargo test --test llm_integration_tests -- --ignored --nocapture
+
+# Run LLM tests with Claude (requires Claude CLI)
+test-claude:
+    cd server && TEST_LLM_PROVIDER=claude cargo test --test llm_integration_tests -- --ignored --nocapture
+
+# Run LLM tests with Ollama (requires Ollama running)
+test-ollama:
+    cd server && TEST_LLM_PROVIDER=ollama cargo test --test llm_integration_tests -- --ignored --nocapture
+
+# Run Ollama-specific tests
+test-ollama-specific:
+    cd server && cargo test --test ollama_integration_tests -- --ignored --nocapture
+
+# Run Ollama tests with a specific model
+test-ollama-model model:
+    cd server && TEST_LLM_MODEL={{model}} cargo test --test ollama_integration_tests -- --ignored --nocapture

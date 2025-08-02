@@ -91,9 +91,12 @@ fn load_npc_memories(npc_name: &str) -> Result<MemorySystem> {
 }
 
 fn save_npc_memories(npc_name: &str, memories: &MemorySystem) -> Result<()> {
-    let memory_path = std::path::Path::new("../data/npcs")
-        .join(npc_name)
-        .join("memories.json");
+    let npc_dir = std::path::Path::new("../data/npcs").join(npc_name);
+    
+    // Create directory if it doesn't exist
+    std::fs::create_dir_all(&npc_dir)?;
+    
+    let memory_path = npc_dir.join("memories.json");
     
     let json = serde_json::to_string_pretty(memories)?;
     std::fs::write(memory_path, json)?;

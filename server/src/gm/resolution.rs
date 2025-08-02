@@ -80,13 +80,19 @@ pub async fn resolve_intents(
                 
                 let participants = &contract.participants;
                 log::info!("  📝 [Contract] New interaction: {} ↔ {}", participants[0], participants.get(1).unwrap_or(&"self".to_string()));
+                
+                // Log the contract reality if we have a transcript entry
+                if let Some(entry) = &contract_update.transcript_entry {
+                    log::info!("     Reality: {}", entry.reality);
+                }
             }
             "update" => {
                 if let Some(contract) = game_manager.get_contract(&contract_update.id) {
                     if let Some(entry) = &contract_update.transcript_entry {
                         ContractManager::update_contract(&contract, entry.clone())?;
                         let id = &contract_update.id;
-                        log::debug!("Updated contract {id}");
+                        log::info!("  📝 [Contract] Update: {}", id);
+                        log::info!("     Reality: {}", entry.reality);
                     }
                 }
             }

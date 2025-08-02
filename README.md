@@ -20,6 +20,12 @@ A Rust-based game server for managing NPC interactions and game state.
    cargo install just
    ```
 
+4. **Set up an LLM provider** (Claude CLI or Ollama)
+   ```bash
+   ./bin/setup-llm.sh
+   ```
+   This script will help you choose and configure your LLM provider.
+
 ## Running the Project
 
 1. **Clone and navigate to the project**
@@ -27,7 +33,13 @@ A Rust-based game server for managing NPC interactions and game state.
    cd Two_Animals
    ```
 
-2. **Run the server**
+2. **Set up your LLM provider** (required on first run)
+   ```bash
+   ./bin/setup-llm.sh
+   ```
+   This creates a `.env` file with your LLM configuration.
+
+3. **Run the server**
 
    **Option A: Development mode with auto-reload**
    ```bash
@@ -45,8 +57,35 @@ A Rust-based game server for managing NPC interactions and game state.
    cd server
    cargo run
    ```
+   
+   Note: If using Ollama, make sure to run `ollama serve` in another terminal first.
 
 The server will start on `http://localhost:3000`
+
+## LLM Providers
+
+The game requires an LLM provider to be configured before running. Use `./bin/setup-llm.sh` to configure one. This will create a `.env` file with your settings.
+
+### Claude
+Uses the Claude CLI. Make sure you have it installed and configured with your API key.
+
+### Ollama (Free, Local)
+Run models locally on your machine. After running setup:
+
+```bash
+# In one terminal
+ollama serve
+
+# In another terminal
+just dev
+```
+
+The server will automatically read your configuration from the `.env` file.
+
+Popular models for this game:
+- `llama3.2:latest` - Fast, good for quick testing
+- `mistral:latest` - Better quality responses
+- `neural-chat:latest` - Optimized for conversations
 
 ## Available Endpoints
 

@@ -13,6 +13,17 @@ pub async fn execute_turn(
     prompt_builder: &PromptBuilder,
 ) -> Result<GmResponse> {
     log::info!("\n{}\n🎮 [Turn Execution][System] Starting new turn\n{}", "=".repeat(60), "-".repeat(60));
+    
+    // Log active contracts if any
+    let game_state = game_manager.get_state();
+    if !game_state.contracts.is_empty() {
+        log::info!("\n📜 [Active Contracts][System]");
+        for (id, contract) in &game_state.contracts {
+            let participants = contract.participants.join(" ↔ ");
+            log::info!("  - {} ({})", id, participants);
+        }
+        log::info!("");
+    }
 
     // First collect intents
     let intents = collect_intents(game_manager, Arc::clone(&llm_client), prompt_builder).await;

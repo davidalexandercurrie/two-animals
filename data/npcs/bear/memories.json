@@ -1,86 +1,86 @@
 {
   "self_memories": {
-    "immediate_context": "Drifting into deep, peaceful sleep under the stars, belly full and body healed, cradled by soft grass in perfect contentment",
+    "immediate_context": "Just interacted",
     "recent_events": [
-      "Found refuge in my secret thicket after the confrontation - the familiar thorns and soft earth remind me that true strength includes knowing when to rest and heal",
-      "Found the strength to tend my wounds alone in my sanctuary - the copper taste of blood reminds me that even victories have costs",
-      "Reclaimed my clearing without further conflict - Wolf yielded the space when I emerged, showing our new understanding holds",
-      "Found true resolution not through violence but through demonstrated strength and chosen mercy - the clearing holds no more tension, only quiet understanding",
-      "Found true peace after the violence - the butterfly's gentle touch reminded me that the forest holds more than conflict, and I can finally rest knowing my boundaries are secure",
-      "The healing sleep worked its magic - I wake refreshed and whole as evening falls, my body no longer bearing the weight of violence",
-      "The true victory wasn't defeating Wolf but reclaiming my ability to move through the forest without fear or pain - evening berries taste sweeter when eaten in peace",
-      "After healing completely from our conflict, I've rediscovered the deep satisfaction of peaceful evenings - full belly, soft grass, dancing fireflies reminding me why I chose mercy over violence",
-      "Found complete healing in choosing peace - the fireflies dancing overhead remind me that what I fought for wasn't territory but these precious moments of quiet joy",
-      "Found complete peace sleeping under the stars after today's trials - the fireflies' dance became my lullaby as I claimed the rest I truly earned"
+      "I was feeling cautious and concerned about the impact of our project on the forest's natural balance when I started clearing away some overgrowth",
+      "None",
+      "None",
+      "I'm feeling a bit more cautious around Wolf after our previous interactions, but I'm still interested in understanding their intentions.",
+      "None",
+      "I had a moment of cautious optimism when I thought we might be able to find common ground on shared resources, but it's unclear if Wolf is genuinely open to cooperation.",
+      "None",
+      "None",
+      "I realized that I need to be more patient and open-minded in my interactions with Wolf, as they may not share the same intentions or goals.",
+      "None"
     ],
     "core_memories": []
   },
   "relationships": {
     "wolf": {
-      "immediate_context": "They rest in their own sanctuary while I sleep peacefully under open sky - we've each found our perfect ending to this day",
+      "immediate_context": "Wolf carefully weighs the benefits and potential risks to their territory before responding to my questions about shared resources.",
       "recent_memories": [
         {
-          "event": "Wolf moved to cleanse their wounds at the pool while I found safety in my hidden thicket - we've both chosen healing over further conflict",
-          "timestamp": "2025-01-02T10:52:00Z",
-          "emotional_impact": "relieved but wary",
-          "importance": 0.8
-        },
-        {
-          "event": "We both retreated to tend our wounds separately - Wolf to the pool, me to my thicket, each processing our violent encounter in our own way",
-          "timestamp": "2025-01-02T10:53:00Z",
-          "emotional_impact": "weary but resolved",
-          "importance": 0.75
-        },
-        {
-          "event": "Wolf yielded the clearing when I emerged from my thicket - they rose without aggression and departed with a final acknowledgment",
-          "timestamp": "2025-01-02T10:54:00Z",
-          "emotional_impact": "cautiously relieved",
-          "importance": 0.8
-        },
-        {
-          "event": "Wolf departed peacefully into the forest while I settled into rest - our conflict has truly ended with mutual understanding",
-          "timestamp": "2025-01-02T10:55:00Z",
-          "emotional_impact": "peaceful resolution",
-          "importance": 0.85
-        },
-        {
-          "event": "Our paths have naturally diverged - Wolf hunts in the shadows while I heal in the sun, the forest large enough for us both",
-          "timestamp": "2025-01-02T10:56:00Z",
-          "emotional_impact": "peaceful acceptance",
-          "importance": 0.8
-        },
-        {
-          "event": "Wolf hunts successfully in their chosen territory while I wake refreshed in mine - we've truly found our separate peace",
-          "timestamp": "2025-01-02T10:57:00Z",
-          "emotional_impact": "content acceptance",
+          "event": "I showed Wolf my tracking skills, and they seemed genuinely interested in learning more",
+          "timestamp": "2025-01-02T10:30:00Z",
+          "emotional_impact": "cautiously curious",
           "importance": 0.7
         },
         {
-          "event": "We've settled into our natural rhythms - Wolf hunts in the deep forest while I forage in the clearings, both finding satisfaction without conflict",
-          "timestamp": "2025-01-02T10:58:00Z",
-          "emotional_impact": "peaceful contentment",
+          "event": "Bear cautiously steps back from Wolf, who remains vigilant but doesn't attack",
+          "timestamp": "2025-01-02T14:15:00Z",
+          "emotional_impact": "cautiously curious",
+          "importance": 0.7
+        },
+        {
+          "event": "We cautiously interacted in ForestClearing, with Wolf showing interest in communication without aggression",
+          "timestamp": "2025-01-02T14:30:00Z",
+          "emotional_impact": "cautiously curious",
           "importance": 0.8
         },
         {
-          "event": "While I settle to watch fireflies with a full belly, Wolf efficiently processes their kill in the shadows - we've found our different but equally valid ways of living",
-          "timestamp": "2025-01-02T10:59:00Z",
-          "emotional_impact": "content acceptance",
-          "importance": 0.65
+          "event": "I asked Wolf about their presence and they maintained a defensive stance while still engaging in conversation - I'm not sure if they're open to more interaction",
+          "timestamp": "2025-01-02T10:30:00Z",
+          "emotional_impact": "cautiously curious but also slightly frustrated",
+          "importance": 0.6
         },
         {
-          "event": "Wolf tends to their own needs in their territory while I find perfect contentment watching fireflies - our conflict has truly resolved into peaceful coexistence",
-          "timestamp": "2025-01-02T11:00:00Z",
-          "emotional_impact": "peaceful contentment",
-          "importance": 0.75
+          "event": "We cautiously observe each other from a distance, Wolf maintaining their defensive posture and me keeping a safe distance",
+          "timestamp": "2025-01-02T10:30:00Z",
+          "emotional_impact": "cautiously wary",
+          "importance": 0.6
         },
         {
-          "event": "As night falls, we each settle into our chosen refuges - me under stars in the clearing, them in their den - truly at peace in our separate territories",
-          "timestamp": "2025-01-02T11:01:00Z",
-          "emotional_impact": "deep contentment",
+          "event": "Bear takes a few steps back while maintaining eye contact with Wolf, signaling willingness to listen without appearing threatening",
+          "timestamp": "2025-01-02T14:30:00Z",
+          "emotional_impact": "cautiously optimistic",
+          "importance": 0.7
+        },
+        {
+          "event": "Both Bear and Wolf cautiously take steps back while maintaining eye contact, assessing the situation without making any sudden movements",
+          "timestamp": "2025-01-02T14:45:00Z",
+          "emotional_impact": "cautiously curious",
           "importance": 0.8
+        },
+        {
+          "event": "As I approach Wolf at ForestClearing, they cautiously assess my intentions and prepare for potential threats, maintaining their defensive stance.",
+          "timestamp": "2025-01-02T15:00:00Z",
+          "emotional_impact": "cautiously curious but also slightly wary",
+          "importance": 0.6
+        },
+        {
+          "event": "I asked Wolf about sharing resources and they responded with interest, but still seemed cautious and defensive.",
+          "timestamp": "2025-01-02T10:30:00Z",
+          "emotional_impact": "cautiously curious but also slightly wary",
+          "importance": 0.6
+        },
+        {
+          "event": "Continued cautious approach while asking more specific questions about shared resources, with Wolf providing a measured response.",
+          "timestamp": "2025-01-02T15:30:00Z",
+          "emotional_impact": "cautiously curious",
+          "importance": 0.7
         }
       ],
-      "long_term_summary": "We've found our perfect balance - each resting peacefully in our own sanctuaries, the forest holding us both without conflict",
+      "long_term_summary": "Wolf seems more willing to consider my proposals, but still prioritizes their territory's safety.",
       "core_memories": [
         "Wolf attacked me from behind while I was walking away - they're dangerously aggressive and will strike without provocation",
         "Wolf trapped me after attacking - they're not just defending territory, they're actively seeking conflict",
@@ -95,9 +95,22 @@
         "Demonstrated mercy by releasing Wolf after proving I could crush them - established that I'm the stronger predator who chooses restraint, not weakness",
         "Completed dignified withdrawal after sparing Wolf - established that true strength lies in choosing when not to use it",
         "Established new boundaries through strength and mercy - Wolf learned I'm not weak prey but a greater predator who chooses when to show restraint",
-        "Our conflict resolved not through dominance but mutual understanding - we can share this forest by choosing separate territories"
+        "Our conflict resolved not through dominance but mutual understanding - we can share this forest by choosing separate territories",
+        "We both showed restraint and cautious curiosity when approaching each other today",
+        "Perhaps we're not as far apart as I thought - a moment of calm could be the start of something greater if both of us choose to see it that way",
+        "None",
+        "I demonstrated that my strength and mercy can coexist, setting a precedent for future interactions",
+        "Wolf's intentions are harder to gauge than initially thought, but their tone suggests a desire for peaceful coexistence",
+        "We're finding common ground on respecting each other's space, potentially leading to a more harmonious coexistence",
+        "Maybe we can find a way to peacefully share this forest through open communication and mutual understanding",
+        "Wolf's curiosity about our conversation is genuine",
+        "Wolf was more interested in my tracking skills than the overgrowth, showing a potential for mutual growth and understanding",
+        "Perhaps I need to re-evaluate our interactions and consider the possibility that Wolf is not as open to conversation as I thought",
+        "Perhaps we can find a way to peacefully share this forest through open communication and mutual understanding",
+        "Wolf's willingness to cautiously approach and engage in conversation may indicate a genuine interest in cooperation",
+        "Wolf's cautious approach suggests a genuine interest in cooperation, but may require more trust-building efforts"
       ],
-      "current_sentiment": 0.4,
+      "current_sentiment": -0.2,
       "overall_bond": 0.0
     }
   }

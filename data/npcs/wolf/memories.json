@@ -1,86 +1,86 @@
 {
   "self_memories": {
-    "immediate_context": "Curled deep in my hidden den beneath ancient roots, wounds slowly healing as exhausted sleep finally claims me - safe in my true sanctuary where no one can follow",
+    "immediate_context": "Just interacted",
     "recent_events": [
-      "First time washing wounds from actual combat rather than hunting - the water carries away blood but not the memory of Bear's weight crushing me down",
-      "The cold water washed away Bear's scent and my blood, but not the memory of submission - I emerge cleaner but forever changed by experiencing true defeat",
-      "The moment I yielded my clearing to Bear without further challenge - acknowledging their earned right to the space after they proved their dominance in combat",
-      "First time hunting while nursing combat wounds - each step reminds me of Bear's strength, but also of the strange peace that comes from settled boundaries",
-      "First hunt after combat defeat - my body bears Bear's marks but my instincts remain sharp, proving I'm still the predator I've always been",
-      "First successful kill after combat defeat - my body bears Bear's marks but my hunting prowess remains undiminished, confirming that submission in one arena doesn't mean weakness in another",
-      "First solitary feeding after combat with Bear - the taste of fresh kill confirms that submission in one arena doesn't diminish my dominance in another",
-      "First evening hunt and feeding after establishing new territorial boundaries with Bear - we've found our separate spaces and rhythms",
-      "First time seeking my healing den after combat rather than just hunting - my body knows this path but carries new wounds that demand proper rest",
-      "First peaceful rest after combat defeat - my body recovers in the absolute safety of my secret den while Bear sleeps exposed in their clearing, proving we each find comfort in different ways"
+      "I extended an invitation to Bear to join me at the salmon stream's uppermost point for a discussion on shared resource management, but they remained cautious during our conversation.",
+      "None",
+      "Noticing Bear's cautious behavior makes me realize I need to be more vigilant and prepared for potential conflict.",
+      "None",
+      "None",
+      "None",
+      "None",
+      "None",
+      "None",
+      "None"
     ],
     "core_memories": []
   },
   "relationships": {
     "bear": {
-      "immediate_context": "Bear sleeps peacefully in their earned clearing while I heal in my hidden sanctuary - we've found our natural balance through separation",
+      "immediate_context": "We both cautiously approach each other at ForestClearing, with me assessing their intentions and preparing for potential threats.",
       "recent_memories": [
         {
-          "event": "Bear retreated to a hidden thicket to rest while I moved to cleanse my wounds - we're both recovering from our violent encounter in our separate spaces",
-          "timestamp": "2025-01-02T10:54:00Z",
-          "emotional_impact": "exhausted relief mixed with lingering shame",
-          "importance": 0.7
-        },
-        {
-          "event": "While I cleansed myself of blood and shame, Bear recovered in the thicket - we've established boundaries through violence and are now processing the aftermath separately",
-          "timestamp": "2025-01-02T10:55:00Z",
-          "emotional_impact": "contemplative and changed",
+          "event": "As I gauge Bear's reactions, their caution makes me realize I may have misread the situation - perhaps they're not as open to our discussion as I thought?",
+          "timestamp": "2025-01-02T12:00:00Z",
+          "emotional_impact": "cautious reassessment",
           "importance": 0.8
         },
         {
-          "event": "Bear emerged from the thicket as I rose to leave, moving to claim the clearing - I yielded the space without challenge, acknowledging their combat-earned right",
-          "timestamp": "2025-01-02T10:56:00Z",
-          "emotional_impact": "bitter acceptance mixed with pragmatic respect",
+          "event": "I attempted to ask Bear about their tracking skills and how they identify suitable hunting grounds in the forest, but my attempt at softening my tone was met with indifference.",
+          "timestamp": "2025-01-02T11:10:00Z",
+          "emotional_impact": "cautious respect mixed with lingering unease",
+          "importance": 0.6
+        },
+        {
+          "event": "While maintaining a calm demeanor, I successfully gauge Bear's reactions and continue the conversation without interrupting.",
+          "timestamp": "2025-01-02T11:05:00Z",
+          "emotional_impact": "cautious respect mixed with subtle understanding",
           "importance": 0.9
         },
         {
-          "event": "Our paths diverged completely - Bear settling into the clearing while I departed to hunt, marking the true end of our territorial conflict",
-          "timestamp": "2025-01-02T10:57:00Z",
-          "emotional_impact": "peaceful acceptance",
+          "event": "I observed Bear's cautious approach, ensuring I maintain my defensive stance while still assessing their intentions.",
+          "timestamp": "2025-01-02T13:00:00Z",
+          "emotional_impact": "cautious respect mixed with heightened awareness",
+          "importance": 0.9
+        },
+        {
+          "event": "I gauge Bear's cautious approach, maintaining my defensive stance while assessing their intentions. They continue to take deliberate steps closer to my position, but remain at a safe distance.",
+          "timestamp": "2025-01-02T13:00:00Z",
+          "emotional_impact": "cautious respect mixed with heightened awareness",
+          "importance": 0.9
+        },
+        {
+          "event": "I gauge Bear's cautious approach and assess their intentions while maintaining a defensive stance for now.",
+          "timestamp": "2025-01-02T14:00:00Z",
+          "emotional_impact": "cautious respect mixed with subtle awareness",
           "importance": 0.8
         },
         {
-          "event": "Our territories naturally separated - Bear claiming the sunny clearing for healing while I pursue prey through familiar shadows",
-          "timestamp": "2025-01-02T10:58:00Z",
-          "emotional_impact": "quiet acceptance",
-          "importance": 0.7
-        },
-        {
-          "event": "While Bear healed in the clearing, I successfully hunted despite my wounds - proving that their combat dominance doesn't diminish my predatory skills",
-          "timestamp": "2025-01-02T10:59:00Z",
-          "emotional_impact": "satisfied and validated",
+          "event": "I assess Bear's cautious approach and gauge their intentions during our conversation at the edge of ForestClearing",
+          "timestamp": "2025-01-02T14:30:00Z",
+          "emotional_impact": "cautious respect mixed with subtle understanding",
           "importance": 0.8
         },
         {
-          "event": "As evening falls, we've settled into our separate territories - Bear finding peace in their earned clearing while I find satisfaction in successful hunting despite my wounds",
-          "timestamp": "2025-01-02T11:00:00Z",
-          "emotional_impact": "peaceful acceptance",
+          "event": "Bear approaches Wolf with caution, asking about their presence in ForestClearing. Wolf maintains a defensive stance without escalating the situation.",
+          "timestamp": "2025-01-02T14:45:00Z",
+          "emotional_impact": "cautious respect mixed with subtle awareness",
           "importance": 0.8
         },
         {
-          "event": "As twilight falls, Bear watches fireflies in their clearing while I feed in the shadows - our territories and interests have naturally separated into day/night, clearing/forest",
-          "timestamp": "2025-01-02T11:01:00Z",
-          "emotional_impact": "peaceful detachment",
-          "importance": 0.75
+          "event": "I gauge Bear's cautious approach, maintaining my defensive stance while assessing their intentions. They continue to take deliberate steps closer to my position, but remain at a safe distance.",
+          "timestamp": "2025-01-02T13:00:00Z",
+          "emotional_impact": "cautious respect mixed with heightened awareness",
+          "importance": 0.9
         },
         {
-          "event": "While Bear settles into restful sleep in the clearing, I move to my hidden den for healing - we're both seeking recovery but in our own distinct territories",
-          "timestamp": "2025-01-02T11:02:00Z",
-          "emotional_impact": "peaceful separation",
-          "importance": 0.7
-        },
-        {
-          "event": "As night falls, we both find rest in our chosen territories - Bear sprawled openly in the moonlit clearing while I curl safely in my secret den, each finding peace in our own way",
-          "timestamp": "2025-01-02T11:03:00Z",
-          "emotional_impact": "peaceful acceptance",
-          "importance": 0.85
+          "event": "I assess Bear's cautious behavior while maintaining a defensive stance. They ask specific questions about how to share resources without compromising my territory.",
+          "timestamp": "2025-01-02T15:00:00Z",
+          "emotional_impact": "cautious respect mixed with subtle awareness",
+          "importance": 0.8
         }
       ],
-      "long_term_summary": "Our conflict has evolved into perfect territorial harmony - Bear rules the open spaces with their strength while I command the hidden depths with my knowledge. We've found peace through understanding our fundamental differences",
+      "long_term_summary": "Bear's cautious approach indicates a need for continued vigilance in our interactions.",
       "core_memories": [
         "Bear's repeated intrusions into my territory after being driven out - a pattern of disrespect that may require physical enforcement",
         "Bear's repeated intrusions and claimed ignorance of our confrontations - establishing a pattern that may require physical enforcement",
@@ -95,9 +95,19 @@
         "The silent acknowledgment at the forest edge - the moment our conflict transformed from territorial dispute to mutual understanding forged through combat",
         "The parallel recovery - Bear in the thicket, me at the pool - marking the end of our violent conflict and the beginning of a new understanding based on tested strength",
         "The moment I left my clearing while Bear moved to claim it - the first time I've ever yielded territory to another predator",
-        "The moment our conflict truly ended - not with violence or threats, but with Bear resting peacefully in their earned territory while I moved on to hunt elsewhere"
+        "The moment our conflict truly ended - not with violence or threats, but with Bear resting peacefully in their earned territory while I moved on to hunt elsewhere",
+        "None",
+        "Bear may be more receptive to open communication if I continue to show respect and empathy.",
+        "I attempted to show Bear a potential hunting location but she remained skeptical.",
+        "Establishing a buffer zone around our territories could be a crucial step in maintaining our territorial balance.",
+        "Gauging Bear's reactions shows I can continue the conversation without interrupting",
+        "Establishing a mutually beneficial arrangement for shared resource management",
+        "I may have misread Bear's initial response or they're not as open to our discussion as I thought",
+        "Maintaining a defensive stance while observing Bear's behavior, ensuring I remain aware of potential threats or opportunities",
+        "I successfully gauge Bear's reactions while maintaining my defensive stance, showing respect without interruption.",
+        "Establishing clear boundaries and protocols for shared resource management with Bear to prevent territorial disputes"
       ],
-      "current_sentiment": 0.65,
+      "current_sentiment": -0.2,
       "overall_bond": 0.0
     }
   }

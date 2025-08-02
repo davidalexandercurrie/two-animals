@@ -412,12 +412,19 @@ async fn test_execute_full_turn_endpoint() {
     
     let app = server::create_router(app_state);
     
+    let request_body = serde_json::json!({
+        "repeat": 1,
+        "endless": false,
+        "delay_ms": 0
+    });
+    
     let response = app
         .oneshot(
             Request::builder()
                 .method("POST")
                 .uri("/turn/execute")
-                .body(Body::empty())
+                .header("content-type", "application/json")
+                .body(Body::from(request_body.to_string()))
                 .unwrap()
         )
         .await
@@ -429,6 +436,12 @@ async fn test_execute_full_turn_endpoint() {
     let turn_result: Value = serde_json::from_slice(&body).unwrap();
     
     // Verify the full turn completed
-    assert!(turn_result["reality"].is_string());
-    assert!(turn_result["state_changes"].is_array());
+    assert_eq!(turn_result["turns_executed"], 1);
+    assert!(turn_result["status"].is_string());
+    assert!(turn_result["last_turn_result"].is_object());
+    
+    // Check the GM response inside last_turn_result
+    let last_turn = &turn_result["last_turn_result"];
+    assert!(last_turn["reality"].is_string());
+    assert!(last_turn["state_changes"].is_array());
 }
