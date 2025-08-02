@@ -21,6 +21,7 @@ Thumbs.db
 
 # Logs
 *.log
+/logs/
 
 # Data files (if you want to keep these private)
 # /data/

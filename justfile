@@ -6,9 +6,25 @@ default:
 dev:
     cd server && cargo watch -c -x 'run --bin server'
 
+# Run dev server with auto-reload and log to file
+dev-log:
+    #!/usr/bin/env bash
+    cd server
+    TIMESTAMP=$(date +"%Y%m%d_%H%M%S")
+    echo "Logging to logs/dev_${TIMESTAMP}.log"
+    cargo watch -c -x 'run --bin server' 2>&1 | tee "../logs/dev_${TIMESTAMP}.log"
+
 # Run dev server with debug logging
 dev-debug:
     cd server && RUST_LOG=debug cargo watch -c -x 'run --bin server'
+
+# Run dev server with debug logging and log to file
+dev-debug-log:
+    #!/usr/bin/env bash
+    cd server
+    TIMESTAMP=$(date +"%Y%m%d_%H%M%S")
+    echo "Debug logging to logs/dev_debug_${TIMESTAMP}.log"
+    RUST_LOG=debug cargo watch -c -x 'run --bin server' 2>&1 | tee "../logs/dev_debug_${TIMESTAMP}.log"
 
 # Run server once
 run:

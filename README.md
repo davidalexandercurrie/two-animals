@@ -107,9 +107,18 @@ The response includes:
 ## Development Commands
 
 ```bash
-just         # List all available commands
-just check   # Check code without running
-just test    # Run tests
+just              # List all available commands
+just dev          # Run with auto-reload
+just dev-log      # Run with auto-reload and save logs to file
+just dev-debug    # Run with debug logging and auto-reload
+just dev-debug-log # Run with debug logging, auto-reload, and save logs to file
+just run          # Run server once
+just run-debug    # Run server once with debug logging
+just run-trace    # Run server once with trace logging (very verbose)
+just check        # Check code without running
+just test         # Run tests
+just test-verbose # Run tests with output
+just test-llm     # Run LLM integration tests (requires Claude CLI)
 ```
 
 ## Logging
@@ -122,14 +131,26 @@ By default, the server runs with minimal logging showing only important game eve
 - 📍 Location changes
 - ✨ Core memory formation
 
-For debugging, use:
+### Logging to Files
+
+Save all logs to timestamped files in the `logs/` directory:
 ```bash
-just dev-debug    # Auto-reload with debug logs
+just dev-log        # Regular logging to file + console
+just dev-debug-log  # Debug logging to file + console
+```
+
+Log files are automatically named with timestamps (e.g., `logs/dev_20250802_151230.log`) and excluded from git.
+
+### Debug Logging
+
+For more detailed debugging information:
+```bash
+just dev-debug    # Auto-reload with debug logs (console only)
 just run-debug    # Run once with debug logs
 just run-trace    # Run with trace logs (very verbose)
 ```
 
-Or set the environment variable:
+Or set the environment variable directly:
 ```bash
 RUST_LOG=debug cargo run
 ```

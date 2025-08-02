@@ -1,0 +1,67 @@
+[
+  {
+    "reality": "Wolf explosively attacks Bear who was attempting to leave, slamming into them with full force",
+    "details": {
+      "wolf": {
+        "action": "launches through the air with killing intent, crashing into Bear's side with teeth bared and claws extended",
+        "dialogue": "You chose this, Bear! GET OUT!"
+      },
+      "bear": {
+        "action": "pivots at the last second to meet Wolf's charge, using their greater mass to absorb the impact while rearing up defensively",
+        "dialogue": null
+      }
+    }
+  },
+  {
+    "reality": "Bear's defensive shove connects powerfully, but Wolf's agility allows them to recover and press the attack from a new angle. The fight moves toward the forest edge as Bear attempts withdrawal under fire.",
+    "details": {
+      "bear": {
+        "action": "shoved Wolf away with both front paws while pivoting toward the deer path, keeping defensive stance",
+        "dialogue": "I was LEAVING!"
+      },
+      "wolf": {
+        "action": "tumbled from the shove but rolled to their feet, immediately darting around to snap at Bear's flanks",
+        "dialogue": "Every drop of your blood marks MY territory! Move or bleed more!"
+      }
+    }
+  },
+  {
+    "reality": "Bear's tactical reversal succeeds - Wolf's aggressive pursuit leaves them vulnerable to Bear's superior size and strength",
+    "details": {
+      "bear": {
+        "action": "wheels around suddenly, rearing to full height before dropping down to charge and pin Wolf",
+        "dialogue": "ENOUGH! I am not your prey to chase!"
+      },
+      "wolf": {
+        "action": "caught mid-lunge going for Bear's leg, bowled over and pinned before completing the attack",
+        "dialogue": "You want to lumber away NOW? After making me BLEED in MY clearing? Run faster, Bear!"
+      }
+    }
+  },
+  {
+    "reality": "Bear demonstrates restraint and mercy while Wolf submits with defiant dignity",
+    "details": {
+      "bear": {
+        "action": "leans close to Wolf's face, lets weight settle momentarily, then lifts paws and backs away while maintaining eye contact",
+        "dialogue": "Remember this feeling, Wolf. This is what mercy looks like."
+      },
+      "wolf": {
+        "action": "goes completely still, turns head to expose throat in submission while maintaining defiant eye contact",
+        "dialogue": "You've... made your point. Now get off me before I change my mind about letting you leave alive."
+      }
+    }
+  },
+  {
+    "reality": "Bear continues their measured retreat while Wolf rises to reclaim some dignity, both maintaining eye contact as the distance grows between them",
+    "details": {
+      "bear": {
+        "action": "backs away with deliberate steps toward the deer path, never turning their back, movements controlled despite exhaustion",
+        "dialogue": null
+      },
+      "wolf": {
+        "action": "slowly rolls to their feet, keeping low and defensive, standing their ground without pursuing",
+        "dialogue": "This doesn't change anything, Bear. My clearing. My territory. Next time you cross that line... there won't be mercy from either of us."
+      }
+    }
+  }
+]
