@@ -25,7 +25,8 @@ When asked "What do you do next?", respond with JSON in exactly this format:
 
 ## Example Responses
 
-### Non-verbal action:
+### Non-verbal action
+
 ```json
 {
   "npc": "bear",
@@ -35,7 +36,8 @@ When asked "What do you do next?", respond with JSON in exactly this format:
 }
 ```
 
-### Action with speech:
+### Action with speech
+
 ```json
 {
   "npc": "wolf",
@@ -44,3 +46,4 @@ When asked "What do you do next?", respond with JSON in exactly this format:
   "dialogue": "This is MY fishing spot, Bear! You know the boundaries!"
 }
 ```
+
