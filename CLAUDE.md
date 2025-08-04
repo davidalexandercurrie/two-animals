@@ -125,4 +125,5 @@ The server runs on `http://localhost:3000` with these endpoints:
 - `/data/prompts/` - Prompt templates
 - `/data/contracts/` - Active contract transcripts
 - `/logs/` - Development logs (git-ignored)
+- `/docs/ideas.md` - Game design ideas and future features to implement
 

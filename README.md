@@ -1,6 +1,6 @@
 # Two Animals - Game Server
 
-A Rust-based game server for managing NPC interactions and game state.
+A Rust-based game server that creates emergent narratives through autonomous AI-powered NPCs. NPCs have personalities, form relationships, make decisions, and interact with each other in a persistent world, all orchestrated by an AI Game Master.
 
 ## Prerequisites
 
@@ -33,13 +33,7 @@ A Rust-based game server for managing NPC interactions and game state.
    cd Two_Animals
    ```
 
-2. **Set up your LLM provider** (required on first run)
-   ```bash
-   ./bin/setup-llm.sh
-   ```
-   This creates a `.env` file with your LLM configuration.
-
-3. **Run the server**
+2. **Run the server**
 
    **Option A: Development mode with auto-reload**
    ```bash
@@ -58,7 +52,7 @@ A Rust-based game server for managing NPC interactions and game state.
    cargo run
    ```
    
-   Note: If using Ollama, make sure to run `ollama serve` in another terminal first.
+   Note: If using Ollama, make sure it's running first (`sudo systemctl start ollama` if installed via setup script).
 
 The server will start on `http://localhost:3000`
 
@@ -73,10 +67,10 @@ Uses the Claude CLI. Make sure you have it installed and configured with your AP
 Run models locally on your machine. After running setup:
 
 ```bash
-# In one terminal
-ollama serve
+# Start Ollama (if installed via setup script)
+sudo systemctl start ollama
 
-# In another terminal
+# Run the server
 just dev
 ```
 
