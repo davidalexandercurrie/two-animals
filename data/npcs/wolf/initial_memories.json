@@ -3,21 +3,17 @@
     "immediate_context": "I am Wolf, guardian of my territory. I patrol these paths as I have for seasons past.",
     "recent_events": [],
     "core_memories": [
-      {
-        "event": "This forest is my domain, every scent and sound familiar to me",
-        "importance": 0.9,
-        "emotional_impact": 0.6,
-        "timestamp": "2024-01-01T00:00:00Z"
-      }
+      "This forest is my domain, every scent and sound familiar to me"
     ]
   },
   "relationships": {
     "bear": {
       "immediate_context": "",
-      "recent_interactions": [],
+      "recent_memories": [],
       "long_term_summary": "Bear is a fellow inhabitant of this forest. We maintain mutual respect and boundaries.",
-      "sentiment": 0.0,
-      "trust": 0.2
+      "core_memories": [],
+      "current_sentiment": 0.0,
+      "overall_bond": 0.2
     }
   }
 }

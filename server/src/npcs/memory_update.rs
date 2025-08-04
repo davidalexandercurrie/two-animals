@@ -68,25 +68,38 @@ async fn update_single_npc_memory(
 }
 
 fn load_npc_memories(npc_name: &str) -> Result<MemorySystem> {
-    let memory_path = std::path::Path::new("../data/npcs")
-        .join(npc_name)
-        .join("memories.json");
+    let npc_dir = std::path::Path::new("../data/npcs").join(npc_name);
+    let memory_path = npc_dir.join("memories.json");
     
     if memory_path.exists() {
         let content = std::fs::read_to_string(&memory_path)?;
         let memories: MemorySystem = serde_json::from_str(&content)?;
         Ok(memories)
     } else {
-        // Initialize empty memory system
-        log::debug!("Creating new memory system for {}", npc_name);
-        Ok(MemorySystem {
-            self_memories: crate::npcs::memory::SelfMemories {
-                immediate_context: String::new(),
-                recent_events: Vec::new(),
-                core_memories: Vec::new(),
-            },
-            relationships: std::collections::HashMap::new(),
-        })
+        // Try to load from initial_memories.json
+        let initial_path = npc_dir.join("initial_memories.json");
+        if initial_path.exists() {
+            log::debug!("Loading initial memories for {}", npc_name);
+            let content = std::fs::read_to_string(&initial_path)?;
+            let memories: MemorySystem = serde_json::from_str(&content)?;
+            
+            // Save as memories.json for next time
+            let json = serde_json::to_string_pretty(&memories)?;
+            std::fs::write(&memory_path, json)?;
+            
+            Ok(memories)
+        } else {
+            // Initialize empty memory system
+            log::debug!("Creating new memory system for {}", npc_name);
+            Ok(MemorySystem {
+                self_memories: crate::npcs::memory::SelfMemories {
+                    immediate_context: String::new(),
+                    recent_events: Vec::new(),
+                    core_memories: Vec::new(),
+                },
+                relationships: std::collections::HashMap::new(),
+            })
+        }
     }
 }
 
